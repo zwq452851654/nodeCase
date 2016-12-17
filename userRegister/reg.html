@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户注册</title>
+</head>
+<body>
+<h2>你看到我的时候就说明你要开始注册了</h2>
+账号：<input type="text" id="username"><br>
+密码：<input type="text" id="age"><br>
+<input type="button" onclick="reg()" value="注册">
+
+
+<div id="data"></div>
+
+<table>
+    <tbody>
+    <tr>
+        <td>账号</td>
+        <td>密码</td>
+    </tr>
+    <tr>
+        <td id="td1"></td>
+        <td id="td2"></td>
+    </tr>
+    </tbody>
+</table>
+
+<script>
+
+    function reg() {
+        var usernameText = document.getElementById('username').value;
+        var ageText = document.getElementById('age').value;
+
+        var user = {
+            name:usernameText,
+            age:ageText
+        };
+
+        var arr = [];
+
+        var xhr = new XMLHttpRequest();
+
+        xhr.open('POST','/reg',true);
+
+        xhr.responseType = 'json';
+
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState == 4 && xhr.status == 200){
+                var user = xhr.response;
+                document.querySelector('#td1').innerHTML = user.name;
+                document.querySelector('#td2').innerHTML = user.age;
+
+            }
+        };
+
+        xhr.send(JSON.stringify(user));
+    }
+
+
+
+
+</script>
+</body>
+</html>

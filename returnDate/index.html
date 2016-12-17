@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>返回服务器时间</title>
+</head>
+<body>
+<div id="curDate"></div>
+<script>
+    window.onload = function () {
+        //console.log('22');
+        setInterval(function () {
+            console.log('11');
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET','/index',true);
+            xhr.onreadystatechange = function () {
+                //console.log(xhr.readyState);
+                if (xhr.readyState == 4){
+                    document.querySelector('#curDate').innerHTML = xhr.responseText;
+                }
+            };
+            xhr.send();
+
+        },1000);
+
+    }
+
+
+</script>
+</body>
+</html>
