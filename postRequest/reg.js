@@ -12,10 +12,13 @@ var server = http.createServer(function (request, response) {
             response.end(data);
         })
     }else if (urlObj.pathname == '/reg'){
+
         request.on('data',function (data) {
             var str = data;
+            console.log(str)
         });
         request.on('end',function () {
+
             response.end('看到我说明你已post成功');
         })
     }

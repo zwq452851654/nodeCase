@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文件请求</title>
+</head>
+<body>
+<h2 id="h2" style="color:red">文件请求</h2>
+<form enctype="multipart/form-data">
+    <input type="text" name="user">
+    <input type="text" name="age">
+    <input type="file" name="avatar">
+    <input type="button" id="regBtn" value="请求文件">
+</form>
+
+
+<script>
+    window.onload = function () {
+        document.querySelector('#regBtn').addEventListener('click',function () {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST','/reg',true);
+            xhr.responseType = 'text';
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState == '4' && /2\d{2}/.test(xhr.status)){
+                    console.log(xhr.responseText);
+                    var img = document.createElement('img');
+                    img.src = '.'+xhr.responseText;
+                    document.body.appendChild(img);
+                }
+            };
+            var formData = new FormData();
+            var avatar = document.querySelector('input[name=avatar]');
+            formData.append('user',document.querySelector('input[name=user]').value);
+            formData.append('age',document.querySelector('input[name=age]').value);
+            formData.append('avatar',avatar.files[0]);
+
+            xhr.send(formData);
+
+        });
+
+    }
+
+</script>
+</body>
+</html>
