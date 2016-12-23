@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74b06859-7fda-4f9c-a475-bc68bd02cb8a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/createReadStream/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/createReadStream/index.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/createReadStream/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsonp/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsonp/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeClient/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nodeClient/server.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -80,6 +77,8 @@
         <option value="$PROJECT_DIR$/createReadStream/index.txt" />
         <option value="$PROJECT_DIR$/createReadStream/test.txt" />
         <option value="$PROJECT_DIR$/createReadStream/server.js" />
+        <option value="$PROJECT_DIR$/nodeClient/server.js" />
+        <option value="$PROJECT_DIR$/nodeClient/client.js" />
       </list>
     </option>
   </component>
@@ -122,6 +121,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -134,10 +135,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Node" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nodeClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,13 +177,7 @@
       <recent name="D:\Node\requeatFile" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.server.js">
-    <configuration default="false" name="reg.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="reg.js" working-dir="$PROJECT_DIR$/userRegister">
-      <method />
-    </configuration>
-    <configuration default="false" name="reg.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="reg.js" working-dir="$PROJECT_DIR$/postRequest">
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.server.js (1)">
     <configuration default="false" name="req.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="req.js" working-dir="$PROJECT_DIR$/fileRequest">
       <method />
     </configuration>
@@ -178,6 +185,12 @@
       <method />
     </configuration>
     <configuration default="false" name="server.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/createReadStream">
+      <method />
+    </configuration>
+    <configuration default="false" name="server.js (1)" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="server.js" working-dir="$PROJECT_DIR$/nodeClient">
+      <method />
+    </configuration>
+    <configuration default="false" name="client.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="client.js" working-dir="$PROJECT_DIR$/nodeClient">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -240,19 +253,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.reg.js" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js.reg.js (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Node.js.req.js" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.test.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.server.js" />
+      <item index="0" class="java.lang.String" itemvalue="Node.js.req.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.test.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.server.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.server.js (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.client.js" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.server.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.test.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.req.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.reg.js (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Node.js.reg.js" />
+        <item index="0" class="java.lang.String" itemvalue="Node.js.client.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.server.js (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.server.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.test.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.req.js" />
       </list>
     </recent_temporary>
   </component>
@@ -280,20 +293,20 @@
       <workItem from="1482119195108" duration="8755000" />
       <workItem from="1482309325000" duration="4305000" />
       <workItem from="1482417306649" duration="3774000" />
+      <workItem from="1482463280748" duration="5561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66551000" />
+    <option name="totallyTimeSpent" value="72112000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19431987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19357249" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -305,6 +318,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -332,7 +346,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -544,7 +557,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -559,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,7 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="14" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -575,31 +585,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/createReadStream/index.tet">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createReadStream/index">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/createReadStream/index.tet" />
+    <entry file="file://$PROJECT_DIR$/createReadStream/index" />
     <entry file="file://$PROJECT_DIR$/jsonp/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -607,7 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,7 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -623,6 +615,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/6.9.2/core-modules/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/nodejs/6.9.2/core-modules/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="1021" column="10" lean-forward="false" selection-start-line="1021" selection-start-column="10" selection-end-line="1021" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeClient/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodeClient/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
